@@ -256,12 +256,9 @@ public class BallManager : MonoBehaviour
     {
         if (!PlayerPrefs.HasKey("HighscoreL1"))
         {
-            if (totalDeaths < highScoreLevel01)
-            {
-                highScoreLevel01 = totalDeaths;
-                PlayerPrefs.SetInt("HighscoreL1", highScoreLevel01);
-                PlayerPrefs.Save();
-            }
+            highScoreLevel01 = totalDeaths;
+            PlayerPrefs.SetInt("HighscoreL1", highScoreLevel01);
+            PlayerPrefs.Save();
         }
         else
         {
@@ -278,12 +275,9 @@ public class BallManager : MonoBehaviour
     {
         if (!PlayerPrefs.HasKey("HighscoreL2"))
         {
-            if (totalDeaths < highScoreLevel02)
-            {
-                highScoreLevel02 = totalDeaths;
-                PlayerPrefs.SetInt("HighscoreL2", highScoreLevel02);
-                PlayerPrefs.Save();
-            }
+            highScoreLevel02 = totalDeaths;
+            PlayerPrefs.SetInt("HighscoreL2", highScoreLevel02);
+            PlayerPrefs.Save();
         }
         else
         {

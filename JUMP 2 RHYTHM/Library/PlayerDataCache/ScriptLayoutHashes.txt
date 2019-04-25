@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-D:/Uni/5201 Unity Game/JUMP 2 RHYTHM/Jump2Rhythm.apk
+D:/Uni/5201 Unity Game/FINAL SUBMISSION/APK/LatestJump2Rhythm.apk
 SceneListBegin?
 Assets/Scenes/MainMenu.unity
 Assets/Scenes/Level01.unity
@@ -245,3 +245,4 @@ ca13de12eb84488109d6c9ffce815168 Assembly-CSharp.dll:.TutorialUmbrellaTriggerBox
 a69b3ee0402770d02d1c122324e4b00e Assembly-CSharp.dll:TMPro.Examples.SkewTextExample
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OpenLinks

@@ -38,13 +38,17 @@ public class WinScreen : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
+        Debug.Log("You win");
+
         if (sceneName == "Level01")
         {
+            Debug.Log("Set L1 HS");
             BM.SetLevel01HighScore();
         }
 
         else if (sceneName == "Level02Prototype")
         {
+            Debug.Log("Set L2 HS");
             BM.SetLevel02Highscore();
         }
 
